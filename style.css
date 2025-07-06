@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* :root {
+
+} */
+
+body {
+    background-color: #F5F4F0;
+    font-family: "Open Sans", sans-serif;
+}
+
+#page {
+    width: 100%;
+    max-width: 1120px;
+    margin: 129px auto 96px;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.headline {
+    color: #E1624F;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+h1 {
+    color: #1B1B1B;
+    font-size: 36px;
+}
