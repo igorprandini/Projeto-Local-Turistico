@@ -15,7 +15,7 @@ body {
 #page {
     width: 100%;
     max-width: 1120px;
-    margin: 129px auto 96px;
+    margin: 129px auto 48px;
     box-sizing: border-box;
 }
 
@@ -50,22 +50,28 @@ h3 {
     padding-left: 10px;
 }
 
-#description {
+.description {
     text-align: center;
 }
 
-#description img {
+.description img {
     width: 100%;
     border-radius: 28px;
     margin-bottom: 24px;
 }
 
-#description span {
+.description span {
     font-size: 16px;
     line-height: 22px;
     font-style: italic; /* Muda estilo da fonte para itálico */
     text-align: center;
     color: #333333;
+}
+
+.description p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 #content-list {
@@ -136,4 +142,10 @@ ul li::marker {
 .content-card ul .li-orange {
     color: #E95E10;
     font-weight: bold; /* a fonte fica em negrito */
+}
+
+footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
 }
