@@ -3,9 +3,9 @@
     margin: 0;
 }
 
-/* :root {
-
-} */
+:root {
+    color: #333;
+}
 
 body {
     background-color: #F5F4F0;
@@ -28,10 +28,53 @@ header {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 8px;
 }
 
 h1 {
     color: #1B1B1B;
     font-size: 36px;
+    margin-top: 8px;
+}
+
+h2 {
+    color: #1B1B1B;
+    font-size: 32px;
+    margin-top: 2px;
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 24px;
+}
+
+main span {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#content-list {
+    margin-top: 40px;
+}
+
+.divisor {
+    border: 1px solid #D9D9D9;
+}
+
+#title-list {
+    margin: 64px 0;
+}
+
+#title-list #title {
+    max-width: 683px;
+}
+
+#title-list p {
+    margin-top: 8px;
+    font-size: 16px;
 }
